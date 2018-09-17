@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+	"mongodb": {
+    "host": "10.160.0.2",
+    "port": 80,
+    "url": "mongodb://10.160.0.2:80/stubdb",
+    "database": "stubdb",
+    "password": "admin",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "user": "admin",
+    "connectionTimeout": 50000
+  }
+}
